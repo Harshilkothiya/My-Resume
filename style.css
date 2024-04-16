@@ -1,0 +1,139 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Open Sans", serif;
+  box-sizing: border-box;
+  color: #868e96;
+}
+
+#page-top {
+  padding-left: 272px;
+}
+
+/* navbar */
+.navbar {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  width: 17rem;
+  height: 100vh;
+  background-color: #5356ff;
+}
+
+.image {
+  margin: auto auto 0;
+}
+
+img {
+  border: 0.5rem solid #7ebdff;
+  border-radius: 500px;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 500px;
+}
+
+.nav {
+  margin-top: 5px;
+  margin-bottom: auto;
+}
+
+.nav-item {
+  padding: 0.15rem 0.5rem;
+  font-weight: 500;
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.5);
+}
+.nav-link:hover {
+  color: #ffffff;
+}
+/* navbar end */
+
+/* body */
+h1,
+.name {
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-weight: 650;
+  font-size: 6rem;
+  line-height: 5.5rem;
+  color: #343a40;
+  text-transform: uppercase;
+}
+
+.subheading {
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-weight: 500;
+  font-size: 1.45rem;
+  text-transform: uppercase;
+  color: #868e96;
+}
+
+.icons {
+  padding-right: 5px;
+  font-size: 20px;
+  color: #343a40;
+}
+
+.icons:hover {
+  color: #007bff;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  margin-bottom: 0px;
+  font-size: 1.2rem;
+  font-weight: 450;
+}
+
+.logo {
+  padding: 10px;
+  font-size: 45px;
+  color: #343a40;
+}
+
+.logo:hover {
+  color: #007bff;
+}
+
+.resume-section {
+  min-height: 100vh;
+  border-bottom: 1px solid #dee2e6;
+}
+
+h2 {
+    font-family: "Saira Extra Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 3.35rem;
+    text-transform: uppercase;
+    color: #343a40;
+}
+  
+h3 {
+    font-family: "Saira Extra Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 1.75rem;
+    text-transform: uppercase;
+    color: #343a40;
+}
+.resume-date {
+    text-align: right;
+    min-width: 18rem;
+}
+
+.gpa {
+  color: #343a40;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+
+
