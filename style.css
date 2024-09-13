@@ -51,6 +51,13 @@ img {
 .nav-link:hover {
   color: #ffffff;
 }
+
+.active {
+  font-weight: bold;
+  color: #ffffff;
+  transition: 0.3s ease-in-out all;
+}
+
 /* navbar end */
 
 /* body */
@@ -110,23 +117,23 @@ h1,
 }
 
 h2 {
-    font-family: "Saira Extra Condensed", sans-serif;
-    font-weight: 700;
-    font-size: 3.35rem;
-    text-transform: uppercase;
-    color: #343a40;
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 3.35rem;
+  text-transform: uppercase;
+  color: #343a40;
 }
-  
+
 h3 {
-    font-family: "Saira Extra Condensed", sans-serif;
-    font-weight: 700;
-    font-size: 1.75rem;
-    text-transform: uppercase;
-    color: #343a40;
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 1.75rem;
+  text-transform: uppercase;
+  color: #343a40;
 }
 .resume-date {
-    text-align: right;
-    min-width: 18rem;
+  text-align: right;
+  min-width: 18rem;
 }
 
 .gpa {
@@ -134,6 +141,3 @@ h3 {
   font-weight: 500;
   margin-top: 5px;
 }
-
-
-
