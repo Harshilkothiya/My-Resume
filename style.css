@@ -5,6 +5,18 @@
   box-sizing: border-box;
   color: #868e96;
 }
+body {
+  overflow-x: hidden;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 
 #page-top {
   padding-left: 272px;
@@ -141,3 +153,20 @@ h3 {
   font-weight: 500;
   margin-top: 5px;
 }
+/* 
+.card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.btn {
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+} */

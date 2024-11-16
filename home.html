@@ -5,6 +5,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <!-- this is for Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
@@ -38,7 +40,7 @@
   <nav class="navbar">
     <!--Image -->
     <a class="image" href="#page-top">
-      <img src="./Harshil-kothiya.jpg" alt="Not found" />
+      <img src="./harshil1.jpg" alt="Not found" width="100px" height="100px" />
     </a>
     <!-- Manu -->
     <ul class="nav flex-column">
@@ -65,10 +67,14 @@
       </li>
     </ul>
   </nav>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
 
   <!-- body Of resume-->
   <div class="container">
-    
+
     <!-- About Part -->
     <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
       <div class="my-auto">
@@ -82,7 +88,8 @@
         <!-- Discription -->
         <p class="mb-5">
           Accomplished MERN stack developer proficient in MongoDB, Express.js, React.js, and Node.js, known for
-          delivering scalable web solutions. Collaborative team member with a focus on effective communication and problem-solving. Dedicated to continuous growth and staying updated with the latest technologies.
+          delivering scalable web solutions. Collaborative team member with a focus on effective communication and
+          problem-solving. Dedicated to continuous growth and staying updated with the latest technologies.
         </p>
 
         <!-- Email, Phone No -->
@@ -93,6 +100,10 @@
         <div class="mb-4 details">
           <i class="fa-solid fa-mobile icons"></i>
           <p class="text-primary link">+91 8469409852</p>
+        </div>
+
+        <div class="mb-2">
+          <a href="harshil-resume.pdf" class="btn btn-primary" download>Download Resume</a>
         </div>
 
         <!-- Links -->
@@ -116,25 +127,50 @@
       <div class="my-auto">
         <h2 class="mb-5">Experience</h2>
 
-        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+        <div class="resume-item d-flex flex-column flex-md-row mb-5" data-aos="fade-left">
+          <div class="resume-content mr-auto">
+            <!-- Add here -->
+            <h3 class="mb-0">Clumoss</h3>
+            <div class="subheading mb-3">Full stack developer</div>
+            <p>
+            <div class="pro-lan mt-3">Hotel management website & E-comers website </div>
+            • During my internship, we developed both a Hotel Management website and an e-commerce platform using the
+            MERN stack
+            These projects involved creating user-friendly interfaces for booking rooms, managing reservations, handling
+            customer data,
+            and facilitating online shopping.
+
+            </p>
+          </div>
+          <!-- timing -->
+          <div class="resume-date text-md-right">
+            <span class="text-primary">May 2024 – June 2024</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row mb-5" data-aos="fade-left">
           <div class="resume-content mr-auto">
             <!-- Add here -->
             <h3 class="mb-0">Bharat Intern </h3>
             <div class="subheading mb-3">Web Development-Work</div>
             <p>
-              <div class="pro-lan mt-3">Weather App</div>
-              • Introducing our cutting-edge weather app crafted with HTML, CSS, and JavaScript, delivering live updates on-the-go. With a minimalist design and lightning-fast performance, stay ahead of the weather curve effortlessly. Just input your location and receive real-time forecasts, covering everything from temperature trends to wind speeds.
-              <br>
-              <div class="pro-lan mt-3">Personal Portfolio</div>
-              • Built personalized portfolio website with React.js, showcasing skills and projects. Implemented
-              responsive design, React components, and interactive features for optimal user experience.
+            <div class="pro-lan mt-3">Weather App</div>
+            • Introducing our cutting-edge weather app crafted with HTML, CSS, and JavaScript, delivering live updates
+            on-the-go. With a minimalist design and lightning-fast performance, stay ahead of the weather curve
+            effortlessly. Just input your location and receive real-time forecasts, covering everything from temperature
+            trends to wind speeds.
+            <br>
+            <div class="pro-lan mt-3">Personal Portfolio</div>
+            • Built personalized portfolio website with React.js, showcasing skills and projects. Implemented
+            responsive design, React components, and interactive features for optimal user experience.
             </p>
           </div>
           <!-- timing -->
           <div class="resume-date text-md-right">
-            <span class="text-primary">March 2013 - Present</span>
+            <span class="text-primary">Feb 2024–March 2024t</span>
           </div>
         </div>
+
       </div>
     </section>
 
@@ -146,7 +182,7 @@
         <!-- Btech -->
         <div class="resume-item d-flex flex-column flex-md-row mb-5">
           <!-- school -->
-          <div class="resume-content mr-auto">
+          <div class="resume-content mr-auto" data-aos="zoom-in">
             <h3 class="mb-0">
               Shree Swaminarayan Gurukul Surat
             </h3>
@@ -159,77 +195,77 @@
         </div>
 
 
-          <div class="resume-content mr-auto">
-            <h3 class="mb-0">
-              Charotar University of Science and Technology
-            </h3>
-            <div class="subheading mb-3">B.Tech. Information Technology</div>
-            <div>
-              Pursued a Bachelor's degree in Information Technology from
-              Charusat University, with a focus on software development and
-              computer programming. Completed coursework in data structures &
-              algorithms, software engineering, and database management.
-            </div>
-            <p class="gpa">CGPA: 9.75</p>
+        <div class="resume-content mr-auto" data-aos="zoom-in-left">
+          <h3 class="mb-0">
+            Charotar University of Science and Technology
+          </h3>
+          <div class="subheading mb-3">B.Tech. Information Technology</div>
+          <div>
+            Pursued a Bachelor's degree in Information Technology from
+            Charusat University, with a focus on software development and
+            computer programming. Completed coursework in data structures &
+            algorithms, software engineering, and database management.
           </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">July 2021 - Present</span>
-          </div>
+          <p class="gpa">CGPA: 9.75</p>
         </div>
+        <!-- <div class="resume-date text-md-right">
+            <span class="text-primary">July 2021 - Present</span>
+          </div> -->
       </div>
-    </section>
+  </div>
+  </section>
 
-    <!-- skills -->
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
-      <div class="my-auto">
-        <h2 class="mb-4">Skills</h2>
+  <!-- skills -->
+  <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+    <div class="my-auto">
+      <h2 class="mb-4">Skills</h2>
 
-        <!-- language -->
-        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+      <!-- language -->
+      <div class="subheading mb-3">Programming Languages &amp; Tools</div>
 
-        <!-- logos -->
-        <ul class="list-inline list-icons">
-          <li class="list-inline-item">
-            <i class="fa-brands fa-node-js logo"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fa-brands fa-python logo"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fa-solid fa-database logo"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fa-brands fa-js logo"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fa-brands fa-java logo"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fa-brands fa-react logo"></i>
-          </li>
-          <li class="list-inline-item"><i class="fa-brands fa-html5 logo"></i></li>
-          <li class="list-inline-item">
-            <i class="fa-brands fa-css3-alt logo"></i>
-          </li>
-        </ul>
+      <!-- logos -->
+      <ul class="list-inline list-icons" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <li class="list-inline-item">
+          <i class="fa-brands fa-node-js logo"></i>
+        </li>
+        <li class="list-inline-item">
+          <i class="fa-brands fa-python logo"></i>
+        </li>
+        <li class="list-inline-item">
+          <i class="fa-solid fa-database logo"></i>
+        </li>
+        <li class="list-inline-item">
+          <i class="fa-brands fa-js logo"></i>
+        </li>
+        <li class="list-inline-item">
+          <i class="fa-brands fa-java logo"></i>
+        </li>
+        <li class="list-inline-item">
+          <i class="fa-brands fa-react logo"></i>
+        </li>
+        <li class="list-inline-item"><i class="fa-brands fa-html5 logo"></i></li>
+        <li class="list-inline-item">
+          <i class="fa-brands fa-css3-alt logo"></i>
+        </li>
+      </ul>
 
-        <!-- key Skills -->
-        <div class="subheading mb-3">Key Skills</div>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-solid fa-check " style="color: #343a40;"></i>
-            Data Visualization
-          </li>
-          <li>
-            <i class="fa-solid fa-check" style="color: #343a40;"></i>
-            Microsoft Power Bi
-          </li>
-        </ul>
-      </div>
-    </section>
+      <!-- key Skills -->
+      <div class="subheading mb-3">Key Skills</div>
+      <ul class="fa-ul mb-0">
+        <li>
+          <i class="fa-solid fa-check " style="color: #343a40;"></i>
+          Data Visualization
+        </li>
+        <li>
+          <i class="fa-solid fa-check" style="color: #343a40;"></i>
+          Microsoft Power Bi
+        </li>
+      </ul>
+    </div>
+  </section>
 
-    <!-- interests -->
-    <!-- <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+  <!-- interests -->
+  <!-- <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
       <div class="my-auto">
         <h2 class="mb-5">Interests</h2>
         <p>
@@ -248,82 +284,90 @@
       </div>
     </section> -->
 
-    <!-- projects -->
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
-      <div class="my-auto">
-        <h2 class="mb-5">projects</h2>
+  <!-- projects -->
+  <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
+    <div class="my-auto" data-aos="fade-left">
+      <h2 class="mb-5">projects</h2>
 
-        <!-- first -->
-        <div class="resume-item d-flex flex-column flex-md-row mb-5">
-          <div class="resume-content mr-auto">
-            <h3 class="mb-0">Chat App</h3>
-            <div class="pro-lan mb-3">NODE.JS</div>
-            <p>
-              Real-TimeChatApp is a Node.js-based application designed to
-              facilitate instant messaging and real-time communication between
-              users. Built upon the principles of WebSocket technology, this
-              chat app provides a seamless and responsive chatting experience,
-              allowing users to exchange messages in real-time without the
-              need to refresh the page.
-            </p>
-            <div class="mb-2 details">
-              <i class="fa-solid fa-link icons"></i>
-              <a href="https://chatapp-uc6n.onrender.com" class="link" target="_blank">ChatApp</a>
-            </div>
-          </div>
-        </div>
+      <!-- first -->
+      <div class="resume-item d-flex flex-column flex-md-row mb-5">
+        <div class="resume-content mr-auto">
+          <!-- <div class="card">
+            <h3>Chat App</h3>
+            <p>Built with Node.js, enabling real-time communication with WebSocket technology.</p>
+            <a href="https://chatapp-uc6n.onrender.com" target="_blank" class="btn btn-outline-primary">View Project</a>
+          </div> -->
 
-        <!-- second -->
-        <div class="resume-item d-flex flex-column flex-md-row mb-5">
-          <div class="resume-content mr-auto">
-            <h3 class="mb-0">Blogging App</h3>
-            <div class="pro-lan mb-3">NODE.JS</div>
-            <p>
-              Developed a blog web application with MongoDB, Node.js, Express, and EJS, emphasizing CRUD operations and For User Authentication I use JWT Tokens and Google OAuth also User Can Write and Read Blogs with Data Security.
-            </p>
-          </div>
-        </div>
-
-        <!-- Third -->
-        <div class="resume-item d-flex flex-column flex-md-row mb-5">
-          <div class="resume-content mr-auto">
-            <h3 class="mb-0">Data Visualization </h3>
-            <div class="pro-lan mb-3">Power BI</div>
-            <p>
-              Designed compelling data visualizations using Power BI to illustrate trends and patterns in crime and road
-              accidents across
-              India. Leveraged dynamic dashboards to showcase comprehensive insights, empowering stakeholders with
-              actionable
-              information for informed decision-making and strategic interventions.
-            </p>
-            <div class="mb-2 details">
-              <i class="fa-solid fa-link icons"></i>
-              <a href="https://parthmodhvadiya.github.io/data-visualization/" class="link" target="_blank">WebSite</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- four -->
-        <div class="resume-item d-flex flex-column flex-md-row mb-5">
-          <div class="resume-content mr-auto">
-            <h3 class="mb-0">WeatherApp </h3>
-            <div class="pro-lan mb-3">HTML, CSS, JS</div>
-            <p>
-              Introducing our cutting-edge weather app crafted with HTML, CSS, and JavaScript, delivering live updates
-              on-the-go. With a minimalist design and lightning-fast performance, stay ahead of the weather curve
-              effortlessly. Just input your location and receive real-time forecasts, covering everything from
-              temperature trends to wind speeds
-            </p>
+          <h3 class="mb-0">Chat App</h3>
+          <div class="pro-lan mb-3">NODE.JS</div>
+          <p>
+            Real-TimeChatApp is a Node.js-based application designed to
+            facilitate instant messaging and real-time communication between
+            users. Built upon the principles of WebSocket technology, this
+            chat app provides a seamless and responsive chatting experience,
+            allowing users to exchange messages in real-time without the
+            need to refresh the page.
+          </p>
+          <div class="mb-2 details">
+            <i class="fa-solid fa-link icons"></i>
+            <a href="https://chatapp-uc6n.onrender.com" class="link" target="_blank">ChatApp</a>
           </div>
         </div>
       </div>
 
-  </div>
+      <!-- second -->
+      <div class="resume-item d-flex flex-column flex-md-row mb-5">
+        <div class="resume-content mr-auto">
+          <h3 class="mb-0">Blogging App</h3>
+          <div class="pro-lan mb-3">NODE.JS</div>
+          <p>
+            Developed a blog web application with MongoDB, Node.js, Express, and EJS, emphasizing CRUD operations and
+            For User Authentication I use JWT Tokens and Google OAuth also User Can Write and Read Blogs with Data
+            Security.
+          </p>
+        </div>
+      </div>
+
+      <!-- Third -->
+      <div class="resume-item d-flex flex-column flex-md-row mb-5">
+        <div class="resume-content mr-auto">
+          <h3 class="mb-0">Data Visualization </h3>
+          <div class="pro-lan mb-3">Power BI</div>
+          <p>
+            Designed compelling data visualizations using Power BI to illustrate trends and patterns in crime and road
+            accidents across
+            India. Leveraged dynamic dashboards to showcase comprehensive insights, empowering stakeholders with
+            actionable
+            information for informed decision-making and strategic interventions.
+          </p>
+          <div class="mb-2 details">
+            <i class="fa-solid fa-link icons"></i>
+            <a href="https://parthmodhvadiya.github.io/data-visualization/" class="link" target="_blank">WebSite</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- four -->
+      <div class="resume-item d-flex flex-column flex-md-row mb-5">
+        <div class="resume-content mr-auto">
+          <h3 class="mb-0">WeatherApp </h3>
+          <div class="pro-lan mb-3">HTML, CSS, JS</div>
+          <p>
+            Introducing our cutting-edge weather app crafted with HTML, CSS, and JavaScript, delivering live updates
+            on-the-go. With a minimalist design and lightning-fast performance, stay ahead of the weather curve
+            effortlessly. Just input your location and receive real-time forecasts, covering everything from
+            temperature trends to wind speeds
+          </p>
+        </div>
+      </div>
+    </div>
+
+    </div>
   </section>
 
   <!-- awards -->
   <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
-    <div class="my-auto">
+    <div class="my-auto" data-aos="fade-up-left">
       <h2 class="mb-5">Awards &amp; Certifications</h2>
 
       <!-- Add here -->
@@ -349,6 +393,11 @@
   </div>
 
   <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
 </body>
 
 </html>
